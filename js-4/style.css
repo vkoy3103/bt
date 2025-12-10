@@ -1,0 +1,103 @@
+.res1 {
+    width: 50%;
+    margin: auto;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.res1 h1 {
+    text-align: center;
+}
+
+.res1 label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.res1 input{
+    width: 80%;
+    justify-content: end;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.res1 select {
+    width: 82%;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.res2 span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sl{
+    margin-top: 20px;
+}
+
+.res2{
+    width: 50%;
+    margin: auto;
+}
+
+.hocvien{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+.btnthem button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(211, 211, 211, 0.452);
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
+}
+
+.btnthem button:hover{
+    background-color: rgba(128, 128, 128, 0.452);
+    transition: 0.2s;
+}
+
+.sub{
+    text-align: center;
+}
+
+.sub button{
+    width: 30%;
+    margin: 20px 10px 0 10px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(211, 211, 211, 0.452);
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
+}
+
+.hv-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.hv-row input{
+    width: 28%;
+    padding: 5px;
+    font-size: 16px;
+}

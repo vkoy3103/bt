@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="res1">
+    <h1>THÔNG TIN LỚP</h1>
+    <form action="dki.com" method="post">
+      <div class="form">
+        <label for="classname">Tên lớp: </label>
+        <input type="text" id="classname" name="classname" required>
+      </div>
+      <div class="form">
+        <label for="suathoc">Suất học: </label>
+        <select id="suathoc" name="suathoc">
+          <option value=""></option>
+          <option value="chan">2-4-6</option>
+          <option value="le">3-5-7</option>
+        </select>
+      </div>
+      <div class="form">
+        <label for="giaovien">Giáo viên: </label>
+        <input type="text" id="giaovien" name="giaovien" required>
+      </div>
+  </div>
+  <div class="res2">
+    <div class="sl">
+      <span>Số lượng học viên:</span> <span>0</span>
+    </div>
+    <div class="hocvien">
+      <div class="btnthem">
+        <button type="button" id="add">+</button>
+      </div>
+      <div class="danhsach-container"></div>
+    </div>
+    <div class="sub">
+      <button type="submit">Đăng ký</button>
+      <button type="reset">Nhập lại</button>
+    </div>
+  </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
